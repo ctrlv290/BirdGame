@@ -41,7 +41,7 @@ public class GameManager : MonoBehaviour
             spawnTimer -= spawnTerm;
 
             GameObject obj = Instantiate(wallPrefab);
-            obj.transform.position = new Vector2(10, Random.Range(-2.75f, 2.75f));
+            obj.transform.position = new Vector2(10, Random.Range(-5f, 5f));
 
         }
     }

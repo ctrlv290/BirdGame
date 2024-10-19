@@ -21,7 +21,7 @@ public class Wall : MonoBehaviour
     private void FixedUpdate() {
         transform.Translate(Vector2.left * speed * Time.fixedDeltaTime);
 
-        if (transform.position.x < -10) { 
+        if (transform.position.x < -20) { 
             Destroy(gameObject);
         }
     }
